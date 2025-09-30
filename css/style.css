@@ -33,6 +33,20 @@
     --btn-text: #121212;
 }
 
+/* Variáveis de uso genérico */
+
+.color-light-gold {
+    color: rgb(240, 218, 97);
+}
+
+.text-align {
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
 /* Reset e estilos base */
 * {
     margin: 0;
@@ -132,6 +146,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .img-center-flex img {
@@ -150,9 +166,9 @@ body {
 
 .section-title {
     text-align: center;
-    margin-bottom: 30px;
     color: var(--primary-color);
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
 /* Serviços */
@@ -205,6 +221,21 @@ body {
     padding: 15px;
 }
 
+.location-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.location-iframe {
+    width: 100%;
+}
+
+.location-address {
+    margin: 20px;
+}
+
 /* Contato */
 .contact-content {
     text-align: center;
@@ -219,7 +250,8 @@ body {
     border-radius: 30px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     transition: background-color 0.3s;
 }
 
@@ -233,7 +265,8 @@ body {
 
 /* Sobre */
 .about-content {
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-content p {
@@ -246,6 +279,17 @@ body {
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    scale: 200%;
+    margin: 25px;
+    color: var(--btn-bg)
 }
 
 /* Botão de alternar tema */
