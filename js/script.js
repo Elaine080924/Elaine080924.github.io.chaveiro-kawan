@@ -84,10 +84,18 @@ function createPlaceholderImages() {
     // Você pode substituir este código quando tiver imagens reais
     const images = [
         { selector: '.logo img', width: 200, height: 60, text: 'Logo' },
-        { selector: '[src="./img/service1.jpg"]', width: 400, height: 300, text: 'Serviço 1' },
-        { selector: '[src="./img/service2.jpg"]', width: 400, height: 300, text: 'Serviço 2' },
-        { selector: '[src="./img/service3.jpg"]', width: 400, height: 300, text: 'Serviço 3' },
-        { selector: '[src="./img/location.jpg"]', width: 500, height: 300, text: 'Localização' }
+        { selector: '[src="./img/abertura-de-veiculos.jpg"]', width: 400, height: 300, text: 'Abertura de veiculos' },
+        { selector: '[src="./img/carimbos.jpg"]', width: 400, height: 300, text: 'Carimbos' },
+        { selector: '[src="./img/chaves-codificadas.jpg"]', width: 400, height: 300, text: 'Chaves Codificadas' },
+        { selector: '[src="./img/chaves-gorja.jpg"]', width: 400, height: 300, text: 'Chaves Gorja' },
+        { selector: '[src="./img/chaves-simples.jpg"]', width: 400, height: 300, text: 'Chaves Simples' },
+        { selector: '[src="./img/chaves-tetra.jpg"]', width: 400, height: 300, text: 'Chaves Tetra' },
+        { selector: '[src="./img/favicon.ico"]', width: 400, height: 300, text: 'Fav Icon' },
+        { selector: '[src="./img/instalacao-de-fechadura.jpg"]', width: 400, height: 300, text: 'Instalacao de Fechadura' },
+        { selector: '[src="./img/location.jpeg"]', width: 400, height: 300, text: 'Location' },
+        { selector: '[src="./img/logo.png"]', width: 400, height: 300, text: 'Logo' },
+        { selector: '[src="./img/olho-magico.jpg"]', width: 400, height: 300, text: 'Olho Magico' },
+        { selector: '[src="./img/troca-de-segredo.jpg"]', width: 400, height: 300, text: 'Troca de Segredo' }
     ];
 
     images.forEach(img => {
