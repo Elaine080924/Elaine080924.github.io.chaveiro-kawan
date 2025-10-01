@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://elaine080924.github.io/Elaine080924.github.io.chaveiro-kawan/sitemap.xml
