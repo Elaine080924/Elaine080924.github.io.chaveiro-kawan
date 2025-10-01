@@ -47,6 +47,10 @@
     margin-top: 20px;
 }
 
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
 /* Reset e estilos base */
 * {
     margin: 0;
@@ -150,9 +154,10 @@ body {
   margin-bottom: 15px;
 }
 
-.img-center-flex img {
-  max-width: 30%;
+.img-center-flex-banner {
+  max-width: 75%;
   height: auto;
+  border-radius: 10px;
 }
 
 /* Seções */
